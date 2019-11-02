@@ -141,7 +141,7 @@ body{
 }
 
 #properMeal{
-    background-image: url('img/veggies.png'); 
+    background-image: url('img/breakfast.png'); 
     background-size: contain;
 }
 
@@ -189,10 +189,6 @@ body{
     .dash{
         width: 90%;
         height: auto;
-    
-        margin: 20px auto;
-        border: 1px solid #EFEFEF;
-        border-radius: 10px;
 
         display: block;
         text-align: center;
