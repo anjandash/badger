@@ -1,0 +1,186 @@
+html, *{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: whitesmoke;
+}
+
+.header{
+    width: 100%;
+    height: 90px;
+
+    background: maroon;
+    background: linear-gradient(90deg, #DDDDDD 0%, whitesmoke 100%);
+}
+
+.dash{
+    width: 90%;
+    height: 320px;
+
+    margin: 20px auto;
+    border: 1px solid #EFEFEF;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badgeSuper{
+    width: 140px;
+    height: 220px;
+
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    background: white;
+
+    margin: 10px 10px 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px lightgrey;
+
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.badgeSuper:after {
+    content: "";
+    position: absolute;
+    top: -110%;
+    left: -210%;
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+    
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right, 
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%
+    );
+}
+
+.badgeSuper:hover:after {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+}
+
+.badgeSuper:after {
+    opacity: 0;
+  }
+
+.badgeHolder{  
+    width: 110px;
+    height: 110px;
+
+    background: #EEEEEE;
+    border-radius: 15px;
+
+    box-shadow: 0px 2px 5px lightgrey;
+    margin: 10px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badgeOutline{
+    width: 90px;
+    height: 90px;
+
+    border-bottom: 2px solid #CCCCCC;
+    border-radius: 15px;
+    background: #DDDDDD;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badgeImgHolder{
+    width: 70px; 
+    height: 70px; 
+}
+
+#veggies{
+    background-image: url('img/veggies.png'); 
+    background-size: contain;
+}
+
+#salad{
+    width: 60px;
+    height: 60px;
+    background-image: url('img/salad.png'); 
+    background-size: contain;
+}
+
+#superSalad{
+    width: 60px;
+    height: 60px;
+    background-image: url('img/supersalad.png'); 
+    background-size: contain;
+}
+
+#hardWorker{
+    width: 65px;
+    margin-top: -10px;
+    background-image: url('img/hw-hat.png'); 
+    background-size: contain;
+}
+
+#properMeal{
+    background-image: url('img/veggies.png'); 
+    background-size: contain;
+}
+
+.badgeText{
+    width: 110px;
+    height: 40px;
+
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 10px;
+    background: #EEEEEE;
+    box-sizing: border-box;
+
+    margin: 5px auto;
+    padding: 11px 0px 0px;
+    
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.badgeStars{
+    width: 110px;
+    height: 30px;
+
+    border: 0px solid red;
+    margin: 0px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star{
+    width: 20px;
+    height: 20px;
+
+    background-image: url('img/star.png');
+    background-size: contain;
+
+    margin: 0px 5px;
+}
+
