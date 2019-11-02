@@ -184,3 +184,18 @@ body{
     margin: 0px 5px;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .dash{
+        width: 90%;
+        height: 320px;
+    
+        margin: 20px auto;
+        border: 1px solid #EFEFEF;
+        border-radius: 10px;
+    
+        align-items: center;
+    }
+    
+}
+
