@@ -10,24 +10,58 @@ body{
 }
 
 .header{
-    width: 100%;
+    width: 88%;
     height: 90px;
 
-    background: maroon;
-    background: linear-gradient(90deg, #DDDDDD 0%, whitesmoke 100%);
+    border-bottom: 2px solid #EFEFEF;
+    background: whitesmoke;
+
+    margin: 0px auto 20px;
+    padding: 1px;
+}
+
+.headerText{
+    width: 150px;
+    height: 55px;
+
+    font-family: 'Aclonica', cursive;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+
+    border: 0px solid red;
+    margin: 20px auto;
+
+    text-align: center;
+}
+
+#titleSty{
+    color: lightgrey;
+    font-family: 'Aclonica', cursive;
 }
 
 .dash{
     width: 90%;
     height: 320px;
 
-    margin: 20px auto;
+    margin: 30px auto 20px;
     border: 1px solid #EFEFEF;
     border-radius: 10px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.dashHeader{
+    width: 150px;
+    height: 80px;
+
+    background: whitesmoke;
+    border-bottom: 1px solid lightgrey;
+
+    padding: 1px;
+    margin: 10px auto;
 }
 
 .badgeSuper{
@@ -133,6 +167,11 @@ body{
     background-size: contain;
 }
 
+#properMeal{
+    background-image: url('img/breakfast.png'); 
+    background-size: contain;
+}
+
 #hardWorker{
     width: 65px;
     margin-top: -10px;
@@ -140,8 +179,8 @@ body{
     background-size: contain;
 }
 
-#properMeal{
-    background-image: url('img/breakfast.png'); 
+#meditator{
+    background-image: url('img/yoga.png'); 
     background-size: contain;
 }
 
