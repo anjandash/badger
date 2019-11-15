@@ -184,6 +184,13 @@ body{
     background-size: contain;
 }
 
+#smartWoman{
+    width: 60px;
+    height: 60px;
+    background-image: url('img/smart.png'); 
+    background-size: contain;
+}
+
 .badgeText{
     width: 110px;
     height: 40px;
