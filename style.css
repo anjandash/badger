@@ -211,6 +211,11 @@ body{
     background-size: contain;
 }
 
+#chef{
+    background-image: url('img/chef.png'); 
+    background-size: contain;
+}
+
 .badgeText{
     width: 110px;
     height: 40px;
