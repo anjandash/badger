@@ -216,6 +216,11 @@ body{
     background-size: contain;
 }
 
+#beauty{
+    background-image: url('img/beauty.png'); 
+    background-size: contain;
+}
+
 .badgeText{
     width: 110px;
     height: 40px;
